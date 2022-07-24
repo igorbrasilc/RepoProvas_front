@@ -3,7 +3,7 @@ import { FormData } from "../pages/SignUp";
 
 
 const baseAPI = axios.create({
-  baseURL: "http://localhost:4000/",
+  baseURL: "https://repoprovas-icb.herokuapp.com/",
 });
 
 interface UserData {
